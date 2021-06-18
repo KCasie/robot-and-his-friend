@@ -1,0 +1,242 @@
+body {
+	background-image: url(https://images.unsplash.com/photo-1483354483454-4cd359948304?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Gloria Hallelujah", sans-serif;
+	font-style: italic;
+	color: #5f93e8;
+}
+
+span {
+	color: rgb(101, 203, 250);
+}
+
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	display: flex;
+	transition: transform 1s;
+}
+
+.eyes:hover {
+	transform: translate(15px, 15px);
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+	transition: transform 1s;
+} 
+
+.right_arm:hover {
+	transform: rotate(-100deg) translate(10px, 20px);
+}
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+
+.android2 {
+	margin-top: 13em;
+}
+
+.head2, 
+.left_arm2, 
+.torso2, 
+.right_arm2, 
+.left_leg2, 
+.right_leg2 {
+	 background-color: powderblue;
+}
+
+.head2 { 
+	width: 100px; 
+	margin: 0 auto; 
+	height: 75px; 
+	border-radius: 100px 100px 0 0; 
+	margin-bottom: 5px;
+} 
+
+.eyes2 {
+	display: flex;
+	transition: transform 1s;
+}
+
+.eyes2:hover {
+	transform: translate(-10px, -10px);
+}
+
+.upper_body2 { 
+	width: 150px; 
+	height: 75px;
+	display: flex; 
+} 
+
+.left_arm2, .right_arm2 { 
+	width: 20px; 
+	height: 62.5px;
+	border-radius: 50px; 
+} 
+
+.left_arm2 { 
+	margin-right: 5px; 
+	transition: transform 1s;
+} 
+
+.left_arm2:hover {
+	transform: rotate(125deg) translate(-20px, 20px);
+}
+
+.right_arm2 { 
+	margin-left: 5px; 
+} 
+
+.torso2 { 
+	width: 100px; 
+	height: 100px;
+	border-radius: 0 0 25px 25px; 
+} 
+
+.lower_body2 { 
+	width: 100px; 
+	height: 100px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+} 
+
+.left_leg2, .right_leg2 { 
+	width: 20px; 
+	height: 60px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.left_leg2 { 
+	margin-left: 22.5px; 
+} 
+
+.right_leg2 { 
+	margin-left: 15px; 
+}
+
+.right_leg2:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.left_eye2, .right_eye2 { 
+	width: 10px; 
+	height: 10px; 
+	border-radius: 7.5px; 
+	background-color: white;  
+} 
+
+.left_eye2 { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 50px; 
+	left: 20px; 
+} 
+
+.right_eye2 { 
+	position: relative; 
+	top: 50px; 
+	left: 60px; 
+}
